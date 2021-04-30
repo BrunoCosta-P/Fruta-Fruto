@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px) {
+    .cabecalho{
+        padding: 0 1rem;
+        justify-content:center ;
+
+    }
+    .logo{
+        display: none;
+    }
+    
+    .banner__titulo{
+        font-size: 3rem;
+    }
+
+    .banner__imagem{
+        height: calc(100vh - 51px);
+    }
+
+    .sobre{
+        padding: 2.5rem 1rem;
+    }
+
+    .sobre__titulo{
+        font-size: 2rem;
+    }
+
+    .sobre__descricao{
+        font-size: 1.3rem;
+    }
+
+    .receitas{
+        padding: 5rem 0 0 1rem;
+    }
+
+    .receita {
+        width: 100%;
+        margin-right: 1rem;
+    }
+
+    .pessoas {
+        flex-direction: column;
+    }
+
+    .pessoa {
+        margin-bottom: 2rem;
+    }
+}
